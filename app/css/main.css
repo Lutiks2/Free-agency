@@ -1,0 +1,183 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url("../fonts/xelv.eot");
+  src: url("../fonts/xelv.woff") format("woff"), url("../fonts/xelv.ttf") format("truetype"), url("../fonts/xelv.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*font-family: 'Open Sans', sans-serif;
+*/
+section {
+  padding-top: 90px;
+  padding-bottom: 80px;
+  text-align: center; }
+
+.name-section h3 {
+  font: bold 40px "Helvetica"; }
+
+.name-section p {
+  font: 25px "Helvetica";
+  padding-bottom: 10px; }
+
+.name-section span {
+  display: block;
+  margin: 0px auto 45px;
+  width: 48px;
+  height: 6px; }
+
+a, a:hover {
+  text-decoration: none; }
+
+li {
+  list-style-type: none; }
+
+/*----------------------header------------------*/
+.welcome {
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 0px; }
+
+.wrap-topline {
+  padding: 10px 5px;
+  background: #f0f2f4;
+  text-align: right;
+  font: 14px 'Helvetica'; }
+  .wrap-topline p {
+    display: inline; }
+  .wrap-topline span {
+    padding: 0px 10px 0px 40px;
+    vertical-align: middle; }
+
+.wrap-head {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.wrap-logo {
+  overflow: hidden; }
+
+.logo {
+  text-align: left;
+  width: 242px;
+  height: 53px; }
+  .logo img {
+    width: 100%; }
+
+@media (min-width: 768px) {
+  .menu-bat {
+    display: none; } }
+
+.navigation {
+  text-align: right; }
+  .navigation ul, .navigation button {
+    display: inline; }
+  .navigation button {
+    background: #de2b24; }
+
+.navigation li {
+  display: inline;
+  margin: 15px; }
+  .navigation li :hover {
+    color: red; }
+
+.navigation ul {
+  padding-right: 33px; }
+
+@media (max-width: 767px) {
+  .logo {
+    text-align: center;
+    margin: 0px auto; }
+  .navigation {
+    text-align: center; }
+  .navigation ul {
+    display: none; }
+  .menu-bat {
+    margin-right: 10px;
+    padding-right: 25px; } }
+
+/*----------------banner--------------*/
+.baner-wrap {
+  height: 80vh;
+  background: url("../images/baner.jpg") 50% 100% no-repeat;
+  background-size: cover; }
+
+.banner {
+  margin-top: 10%;
+  color: #fff; }
+  .banner h2 {
+    font: bold 50px 'Helvetica'; }
+  .banner p {
+    padding-bottom: 30px;
+    font: 100 30px 'Helvetica'; }
+  .banner .but {
+    background: #f8cd53;
+    padding: 25px 40px;
+    border: 1px solid #f8cd53;
+    border-radius: 10px;
+    font: bold 24px 'Helvetica';
+    text-transform: uppercase;
+    cursor: pointer; }
+
+/*------------about------------------*/
+.about .name-section h3, .approch .name-section h3 {
+  color: #424242; }
+
+.about .name-section p, .approch .name-section p {
+  color: #5b5b5b; }
+
+.about .name-section span, .approch .name-section span {
+  background: #424242; }
+
+/*-----------approch-------------*/
+.approch {
+  background: #f3f3f3; }
+
+.approch-step li {
+  background: #fff;
+  margin-bottom: 40px; }
+  .approch-step li img {
+    max-width: 341px;
+    width: 100%;
+    height: 237px; }
+  .approch-step li .number {
+    width: 105px;
+    height: 105px;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: #de2b24;
+    color: #fff; }
+    .approch-step li .number span {
+      font: bold 35px 'Helvetica'; }
+    .approch-step li .number p {
+      font: bold 20px 'Helvetica'; }
+
+@media (max-width: 767px) {
+  .approch-step .number, .approch-step img {
+    margin: 0px auto; }
+  .approch-step .wrap-text h4 {
+    display: none; } }
+
+@media (min-width: 768px) {
+  .approch-step li {
+    position: relative;
+    height: 237px; }
+    .approch-step li .number {
+      position: absolute;
+      margin-top: 60px;
+      margin-left: 290px; }
+    .approch-step li img {
+      float: left;
+      margin-right: 85px; }
+    .approch-step li .wrap-text {
+      padding: 70px 75px 0 0;
+      text-align: left; }
+      .approch-step li .wrap-text h4 {
+        font: bold 18px 'Helvetica'; }
+      .approch-step li .wrap-text p {
+        font: 14px 'Open Sans', sans-serif; } }
+
+/*------------------work--------------*/
+.work {
+  padding: 100px auto 130px;
+  background: #de2b24; }
